@@ -1,72 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>个人博客</title>
+    <link rel="stylesheet" href="css.css">
+</head>
+
 <body>
-    <div class="home">
-        <div class="content">
-            <div class="stars"></div>
-            <img class="bgc" src="./img/imgs38.jpg" width="100%" alt="">
-            <h3 class="title">欢迎来到我的个人网站</h3>
-            <h3 class="titles">今天也要加油鸭</h3>
-            <img class="icon" src="./img/down.png" alt="">
-            <div class='ribbon'>
-                <a href='./index.html'><span>Home</span></a>
-                <a href='./about.html'><span>About</span></a>
-                <a href='./form.html'><span>Form</span></a>
-
-            </div>
-
-        </div>
-        <div class="icons">
-            <div class="icons_items">
-                <img class="icons_items_imgs" src="./img/xuexiao.png" alt="">
-                <span>教学楼是我们每天必去取经之地</span>
-            </div>
-            <div class="icons_items">
-                <img class="icons_items_imgs" src="./img/canting.png" alt="">
-                <span>每天都要在食堂里面纠结到底吃什么</span>
-            </div>
-            <div class="icons_items">
-                <img class="icons_items_imgs" src="./img/fengjing.png" alt="">
-                <span>午饭过后可以躺着休息晒晒太阳的小山坡</span>
-            </div>
-            <div class="icons_items">
-                <img class="icons_items_imgs" src="./img/yewan.png" alt="">
-                <span>忙碌的一天结束啦爬上小床跟世界说晚安</span>
+    <div id="bigbox">
+        <div id="title">
+            <img src="picture/bg.png" alt="">
+            <div>
+                <img src="picture/touxiang.png" alt="">
             </div>
         </div>
-        <div class="introduce">
-            <div class="introduce_item">
-                <img class="introduce_item_img" src="./img/imgs15.jpg" alt="">
-                <span class="introduce_item_title">天空还是一片浅蓝,转眼间东方出现了一道红霞,红霞慢慢地在扩大，不大一会就染红了小半边天。颜色红得可爱， 又 过了一会儿,在那个地方出现了太阳的小半边脸。</span>
-
+        <div id="mian">
+            <div id="mian_left">
+                <a href="">我的主页</a>
+                <a href="jiaixang.html">我的家乡</a>
+                <a href="aihao.html">我的爱好</a>
+                <a href="liuyan.html">给我留言</a>
+                <div id="bg2">
+                    <img src="picture/bg2.png" alt="">
+                </div>
             </div>
-            <div class="introduce_item">
-
-                <span class="introduce_item_titles">当清晨的阳光洒进我们温馨的寝室，忙碌的一天又开始了，闹钟开始响起，每个人睡眼惺忪，从床上爬起，忙忙碌碌的穿梭在食堂与教室之间</span>
-                <img class="introduce_item_img" src="./img/imgs36.jpg" alt="">
-            </div>
-            <div class="introduce_item">
-                <img class="introduce_item_img" src="./img/imgs16.jpg" alt="">
-                <span class="introduce_item_title">温暖的阳光照耀着大地，远处的小山都金灿灿的美轮美奂，它穿梭于微隙的气息。舒倘，漫长。紫檀的香味，弥漫在春日，把天地间一切空虚盈满，阳光下，是一道纤绝的尘陌，呢喃着天真，充盈着那抹曾经深不可测的孤清而飘逸的影。</span>
-            </div>
-            <div class="introduce_item">
-                <span class="introduce_item_titles">当晚自习结束后，抬头望向天空，几颗大而亮的星星挂在夜空，仿佛是天上的人儿提着灯笼在巡视那浩瀚的太空。美丽极了，裹紧衣裳，在这优美的夜色中慢慢的走回寝室。</span>
-                <img class="introduce_item_img" src="./img/imgs14.jpg" alt="">
+            <div id="mian_right">
+                <div class="content">
+                    <ul class="wrapper">
+                        <li><img src="picture/banner.png"></li>
+                        <li><img src="picture/banner1.png"></li>
+                        <li><img src="picture/banner2.png"></li>
+                        <li><img src="picture/banner.png"></li>
+                    </ul>
+                    <ul class="radius">
+                    </ul>
+                    <div class="prev">
+                        <span>
+                            < </span>
+                    </div>
+                    <div class="next">
+                        <span>></span>
+                    </div>
+                </div>
             </div>
         </div>
-        <audio autoplay="autoplay" id="audio" loop="loop">
-                <source src="./video/music.mp3" type="audio/MP3">
-               
-        </audio>
-        <img class="music_img" src="./img/music_img.png" alt="">
+        <div id="main2">
+            <p class="title">
+                我去过的
+            </p>
+            <div id="tupian">
+                <img src="picture/l1.png" alt="">
+                <p>颐和园</p>
+            </div>
+            <div id="tupian">
+                <img src="picture/l2.png" alt="">
+                <p>重庆</p>
+            </div>
+            <div id="tupian">
+                <img src="picture/l3.png" alt="">
+                <p>辽宁</p>
+            </div>
+            <div id="tupian">
+                <img src="picture/l4.png" alt="">
+                <p>海南</p>
+            </div>
+        </div>
+        <div id="main3">
+            <p>
+                <span>姓名</span>：******<br>
+                <span>爱好</span>：拳击，打球，健身，读书<br>
+                <span>性格</span>：开朗<br>
+                <span>特长</span>：打蓝球，拳击<br>
+                <span>家乡</span>：新疆和田地区
+            </p>
+            <p>
+                <span>自我评价</span>
+                本人性格开朗、踏实、稳重、有活力，待人热情、真诚。喜欢在空余的时间看书和听音乐，从中减轻平时学习中带来的压力，还可以学到书本中学不到的知识，开拓自己的眼界、积极并不断进取是我做事的原则，谦虚和谨慎是我的优点，懂得不断从生活和学习中提高和完善自己、为人诚实，有良好的人际交往能力，具备相关的专业知识和认证细心的做事态度。
+            </p>
+        </div>
+        <footer>
+            <p>版权所有©：******</p>
+        </footer>
     </div>
-
 </body>
-<script>
-    let mucics = document.getElementById('audio')
-    document.body.addEventListener('mousemove', function() {
-        setTimeout(() => {
-            mucics.play();
-        }, 2000);
-    }, false);
-</script>
+<script src="js/js.js"></script>
 
 </html>
